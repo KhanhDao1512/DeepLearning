@@ -1,0 +1,23 @@
+dataset:
+  name: MNIST
+  train_images: data/MNIST/raw/train-images-idx3-ubyte
+  train_labels: data/MNIST/raw/train-labels-idx1-ubyte
+  test_images: data/MNIST/raw/t10k-images-idx3-ubyte
+  test_labels: data/MNIST/raw/t10k-labels-idx1-ubyte
+  num_classes: 10
+
+model:
+  name: lenet
+
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0
+  num_workers: 0
+  seed: 42
+  selection_metric: f1_macro
+
+output:
+  checkpoint_dir: checkpoints/assignment1
+  metrics_file: results/assignment1_metrics.csv

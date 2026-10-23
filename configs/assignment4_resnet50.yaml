@@ -1,0 +1,24 @@
+dataset:
+  name: VinaFood21
+  root: data/VinaFood21
+  image_size: 224
+  num_classes: auto
+
+model:
+  name: resnet50_hf
+  pretrained_model: models/microsoft-resnet-50
+  freeze_backbone: false
+
+training:
+  epochs: 10
+  resume: true
+  batch_size: 16
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  num_workers: 0
+  seed: 42
+  selection_metric: f1_macro
+
+output:
+  checkpoint_dir: checkpoints/assignment4
+  metrics_file: results/assignment4_metrics.csv

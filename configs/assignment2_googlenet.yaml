@@ -1,0 +1,23 @@
+dataset:
+  name: VinaFood21
+  root: data/VinaFood21
+  image_size: 224
+  num_classes: auto
+
+model:
+  name: googlenet
+  first_conv_padding: 3
+  maxpool_ceil_mode: true
+
+training:
+  epochs: 10
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 0
+  seed: 42
+  selection_metric: f1_macro
+
+output:
+  checkpoint_dir: checkpoints/assignment2
+  metrics_file: results/assignment2_metrics.csv
