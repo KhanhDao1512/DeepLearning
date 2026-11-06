@@ -1,0 +1,28 @@
+Loading vocab ...
+Creating datasets ...
+Creating dataloaders ...
+Initializing model and utilities ...
+F1: 0.5701542432441101
+Epoch 1: train_loss=0.5547 dev_f1=0.5702
+F1: 0.7084632872311074
+Epoch 2: train_loss=0.4347 dev_f1=0.7085
+F1: 0.7368652588700333
+Epoch 3: train_loss=0.3697 dev_f1=0.7369
+F1: 0.7353313549291232
+Epoch 4: train_loss=0.3388 dev_f1=0.7353
+F1: 0.7542915801257379
+Epoch 5: train_loss=0.3076 dev_f1=0.7543
+F1: 0.7303524807635321
+Epoch 6: train_loss=0.2862 dev_f1=0.7304
+F1: 0.7452881696378166
+Epoch 7: train_loss=0.2652 dev_f1=0.7453
+F1: 0.7393429206675558
+Epoch 8: train_loss=0.2450 dev_f1=0.7393
+F1: 0.7328993310043465
+Epoch 9: train_loss=0.2223 dev_f1=0.7329
+F1: 0.7398361569470312
+Epoch 10: train_loss=0.1970 dev_f1=0.7398
+Patience reached! Training completed
+Loaded best model from epoch 5 (dev F1 = 0.7543)
+F1: 0.763655724487554
+F1-score on test set: 0.763655724487554

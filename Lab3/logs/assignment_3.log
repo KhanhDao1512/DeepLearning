@@ -1,0 +1,62 @@
+Loading vocab ...
+Creating datasets ...
+Creating dataloaders ...
+Initializing model and utilities ...
+F1: 0.3767852505842638
+Epoch 1: train_loss=0.8924 dev_f1=0.3768
+F1: 0.7845622931192338
+Epoch 2: train_loss=0.2538 dev_f1=0.7846
+F1: 0.8507983362404401
+Epoch 3: train_loss=0.1134 dev_f1=0.8508
+F1: 0.8580238454159245
+Epoch 4: train_loss=0.0779 dev_f1=0.8580
+F1: 0.8587211711089628
+Epoch 5: train_loss=0.0567 dev_f1=0.8587
+F1: 0.8730670969476939
+Epoch 6: train_loss=0.0449 dev_f1=0.8731
+F1: 0.8857376602127078
+Epoch 7: train_loss=0.0314 dev_f1=0.8857
+F1: 0.8919567827130853
+Epoch 8: train_loss=0.0245 dev_f1=0.8920
+F1: 0.8881889763779528
+Epoch 9: train_loss=0.0208 dev_f1=0.8882
+F1: 0.886626119045992
+Epoch 10: train_loss=0.0176 dev_f1=0.8866
+F1: 0.892387378177605
+Epoch 11: train_loss=0.0168 dev_f1=0.8924
+F1: 0.8881157047346158
+Epoch 12: train_loss=0.0160 dev_f1=0.8881
+F1: 0.893835154458384
+Epoch 13: train_loss=0.0121 dev_f1=0.8938
+F1: 0.8910824149820836
+Epoch 14: train_loss=0.0092 dev_f1=0.8911
+F1: 0.8912999528270099
+Epoch 15: train_loss=0.0086 dev_f1=0.8913
+F1: 0.8917369308600338
+Epoch 16: train_loss=0.0088 dev_f1=0.8917
+F1: 0.8944410589748798
+Epoch 17: train_loss=0.0085 dev_f1=0.8944
+F1: 0.8906042054830982
+Epoch 18: train_loss=0.0093 dev_f1=0.8906
+F1: 0.9008487134581706
+Epoch 19: train_loss=0.0090 dev_f1=0.9008
+F1: 0.8986134595874197
+Epoch 20: train_loss=0.0063 dev_f1=0.8986
+F1: 0.8914246668944311
+Epoch 21: train_loss=0.0070 dev_f1=0.8914
+F1: 0.9011108100785694
+Epoch 22: train_loss=0.0052 dev_f1=0.9011
+F1: 0.8936170212765958
+Epoch 23: train_loss=0.0039 dev_f1=0.8936
+F1: 0.8833105335157319
+Epoch 24: train_loss=0.0055 dev_f1=0.8833
+F1: 0.8928693046380167
+Epoch 25: train_loss=0.0041 dev_f1=0.8929
+F1: 0.8918807528506664
+Epoch 26: train_loss=0.0039 dev_f1=0.8919
+F1: 0.8965329337238607
+Epoch 27: train_loss=0.0066 dev_f1=0.8965
+Patience reached! Training completed
+Loaded best model from epoch 22 (dev F1 = 0.9011)
+F1: 0.8910006074806908
+F1-score on test set: 0.8910006074806908
